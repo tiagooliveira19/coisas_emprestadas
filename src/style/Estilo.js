@@ -41,6 +41,11 @@ const Styles = StyleSheet.create({
 
     listItens: {
         margin: 10
+    },
+
+    img: {
+        width: 20,
+        height: 20
     }
 });
 
