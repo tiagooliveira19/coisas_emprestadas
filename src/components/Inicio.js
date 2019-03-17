@@ -56,9 +56,6 @@ export default class Inicio extends Component {
                         <Text>{obj.pessoa}</Text>
                 </View>
                 <View style={Styles.listItens} >
-                    <Text>{obj.dataEmp}</Text>
-                </View>
-                <View style={Styles.listItens} >
                     <Text>{obj.dataDev}</Text>
                 </View>
                 <TouchableHighlight
@@ -136,9 +133,6 @@ export default class Inicio extends Component {
                         </View>
                         <View style={Styles.listItens} >
                                 <Text>Pessoa</Text>
-                        </View>
-                        <View style={Styles.listItens} >
-                            <Text>Data Emp.</Text>
                         </View>
                         <View style={Styles.listItens} >
                             <Text>Data Dev.</Text>
